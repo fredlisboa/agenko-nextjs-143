@@ -20,7 +20,7 @@ const roboto = Roboto({
   variable: '--body-font',
 });
 
-// OTIMIZADO: Metadados focados em SEO local e especialidades
+/// OTIMIZADO: Metadados focados em SEO local e especialidades
 export const metadata = {
   title: {
     default: 'Harmonização Orofacial em Goiânia | Dra. Gabriella Lisboa',
