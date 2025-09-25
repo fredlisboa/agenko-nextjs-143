@@ -1,0 +1,12 @@
+# public/robots.txt
+
+# Explicitly allow the favicon crawler
+User-agent: Google Favicon
+Allow: /
+
+# General rules for other crawlers
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://hof.studiodental.dental/sitemap.xml
