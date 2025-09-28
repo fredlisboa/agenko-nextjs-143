@@ -890,7 +890,7 @@ const Services2 = ()=>{
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "col-lg-12",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                id: "toxina-botulinica",
+                                id: "linhas-expressao",
                                 className: "agenko-card-item style-one mb-30 pf_fadeup",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -906,7 +906,7 @@ const Services2 = ()=>{
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                 className: "title",
-                                                children: "Toxina Botulínica"
+                                                children: "Tratamento de Linhas de Expressão"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/Components/Services/Services2.tsx",
                                                 lineNumber: 168,
@@ -926,23 +926,31 @@ const Services2 = ()=>{
                                                 hyphens: 'auto'
                                             },
                                             children: [
-                                                "Suavize rugas de expressão e conquiste uma aparência mais descansada e rejuvenescida. A aplicação da toxina botulínica relaxa a musculatura de forma ",
+                                                "Suavize as ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    children: "precisa"
+                                                    children: "linhas de expressão"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/Components/Services/Services2.tsx",
                                                     lineNumber: 171,
-                                                    columnNumber: 240
+                                                    columnNumber: 102
                                                 }, ("TURBOPACK compile-time value", void 0)),
-                                                ", tratando pés de galinha, linhas na testa e entre as sobrancelhas, com resultados ",
+                                                " e conquiste uma aparência mais descansada e rejuvenescida. O procedimento atua de forma precisa no relaxamento dos músculos faciais responsáveis pelos ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    children: "naturais"
+                                                    children: "pés de galinha"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/Components/Services/Services2.tsx",
                                                     lineNumber: 171,
-                                                    columnNumber: 343
+                                                    columnNumber: 286
                                                 }, ("TURBOPACK compile-time value", void 0)),
-                                                " que preservam sua expressividade."
+                                                ", rugas na testa e entre as sobrancelhas. O resultado é um visual naturalmente mais jovem, que preserva a sua ",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    children: "expressividade"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/Components/Services/Services2.tsx",
+                                                    lineNumber: 171,
+                                                    columnNumber: 423
+                                                }, ("TURBOPACK compile-time value", void 0)),
+                                                "."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/Components/Services/Services2.tsx",

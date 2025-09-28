@@ -162,13 +162,13 @@ const Services2 = () => {
                                </div>
                                <div className="col-lg-12">
                                    
-                                   <div id="toxina-botulinica" className="agenko-card-item style-one mb-30 pf_fadeup">
+                                   <div id="linhas-expressao" className="agenko-card-item style-one mb-30 pf_fadeup">
                                        <div className="card-title">
                                            <div className="sn-number">08</div>
-                                           <h3 className="title">Toxina Botulínica</h3>
+                                           <h3 className="title">Tratamento de Linhas de Expressão</h3>
                                        </div>
                                        <div className="content">
-                                       <p style={{textAlign: 'justify', hyphens: 'auto'}}>Suavize rugas de expressão e conquiste uma aparência mais descansada e rejuvenescida. A aplicação da toxina botulínica relaxa a musculatura de forma <span>precisa</span>, tratando pés de galinha, linhas na testa e entre as sobrancelhas, com resultados <span>naturais</span> que preservam sua expressividade.</p>
+                                       <p style={{textAlign: 'justify', hyphens: 'auto'}}>Suavize as <span>linhas de expressão</span> e conquiste uma aparência mais descansada e rejuvenescida. O procedimento atua de forma precisa no relaxamento dos músculos faciais responsáveis pelos <span>pés de galinha</span>, rugas na testa e entre as sobrancelhas. O resultado é um visual naturalmente mais jovem, que preserva a sua <span>expressividade</span>.</p>
                                        </div>
                                        <div className="card-button">
                                            <Link href="/contact" className="theme-btn style-one">

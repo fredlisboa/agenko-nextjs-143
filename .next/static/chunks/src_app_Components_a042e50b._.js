@@ -589,14 +589,14 @@ const HeroBanner2 = ()=>{
                                             }, ("TURBOPACK compile-time value", void 0)),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                    href: "#toxina-botulinica",
+                                                    href: "#linhas-expressao",
                                                     onClick: handleScroll,
                                                     className: "agenko-iconic-box style-one service-button-glow",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "icon",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                                src: "/assets/images/icons/toxina-botulinica.svg",
+                                                                src: "/assets/images/icons/linhas-expressao.svg",
                                                                 alt: "Slim Lift Icon",
                                                                 width: 60,
                                                                 height: 60
@@ -614,7 +614,7 @@ const HeroBanner2 = ()=>{
                                                             className: "content",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                                                                 className: "title",
-                                                                children: "Toxina Botulínica"
+                                                                children: "Tratamento de Linhas de Expressão"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/Components/HeroBanner/HeroBanner2.tsx",
                                                                 lineNumber: 167,
@@ -1659,8 +1659,8 @@ const Faq1 = ()=>{
             content: 'A grande maioria dos nossos procedimentos de harmonização orofacial permite um retorno imediato às suas atividades diárias. Pode ocorrer um leve inchaço ou vermelhidão no local, que geralmente desaparece rapidamente e pode ser disfarçado com maquiagem. Todas as orientações detalhadas são fornecidas para garantir que sua recuperação seja o mais tranquila e <b>discreta</b> possível.'
         },
         {
-            title: 'Harmonização Orofacial é a mesma coisa que aplicação da toxina botulínica?',
-            content: 'Não, são coisas diferentes, mas que se complementam maravilhosamente! A toxina botulínica trata rugas de expressão ao relaxar a musculatura. Já a <b>Harmonização Orofacial</b> é um conjunto de procedimentos (como preenchimentos e bioestimuladores) que visa <b>restaurar volumes</b>, definir contornos e <b>melhorar a qualidade da pele</b>. Na sua avaliação, podemos definir qual a melhor combinação para você.'
+            title: 'Qual a diferença entre Harmonização Orofacial e o tratamento para linhas de expressão?',
+            content: 'Não, são tratamentos diferentes, mas que se complementam maravilhosamente! O <b>tratamento para as linhas de expressão</b> foca em relaxar os músculos que causam as rugas dinâmicas (como pés de galinha e linhas na testa). Já a Harmonização Orofacial é um conjunto mais amplo de procedimentos (como preenchimentos e bioestimuladores) que visa restaurar volumes, <b>definir contornos</b> e melhorar a qualidade da pele. Na sua avaliação, definimos a melhor combinação para <b>você</b>.'
         },
         {
             title: 'Sou de outra cidade. Como funciona o atendimento?',

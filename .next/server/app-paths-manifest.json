@@ -1,1 +1,4 @@
-{}
+{
+  "/(defaultLayout)/page": "app/(defaultLayout)/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+}

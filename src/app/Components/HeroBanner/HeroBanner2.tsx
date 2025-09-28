@@ -156,15 +156,15 @@ const HeroBanner2 = () => {
                            <li>
                                
                                <Link
-                                   href="#toxina-botulinica"
+                                   href="#linhas-expressao"
                                    onClick={handleScroll}
                                    className="agenko-iconic-box style-one service-button-glow"
                                >
                                    <div className="icon">
-                                       <Image src="/assets/images/icons/toxina-botulinica.svg" alt="Slim Lift Icon" width={60} height={60} />
+                                       <Image src="/assets/images/icons/linhas-expressao.svg" alt="Slim Lift Icon" width={60} height={60} />
                                    </div>
                                    <div className="content">
-                                       <h4 className="title">Toxina Botulínica</h4>
+                                       <h4 className="title">Tratamento de Linhas de Expressão</h4>
                                    </div>
                                </Link>
                            </li>
