@@ -69,84 +69,6 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
 }),
-"[project]/src/components/UtmLinkUpdater.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
-"use strict";
-
-// src/components/UtmLinkUpdater.tsx
-__turbopack_context__.s([
-    "UtmLinkUpdater",
-    ()=>UtmLinkUpdater
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/navigation.js [app-client] (ecmascript)");
-var _s = __turbopack_context__.k.signature();
-"use client";
-;
-;
-const SESSION_STORAGE_KEY = 'marketing_params';
-function UtmLinkUpdater() {
-    _s();
-    const pathname = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"])();
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
-        "UtmLinkUpdater.useEffect": ()=>{
-            // We use a setTimeout to ensure this code runs after the initial page render is complete.
-            const timer = setTimeout({
-                "UtmLinkUpdater.useEffect.timer": ()=>{
-                    const storedParams = sessionStorage.getItem(SESSION_STORAGE_KEY);
-                    if (!storedParams) {
-                        return;
-                    }
-                    const allLinks = document.getElementsByTagName('a');
-                    for (const link of allLinks){
-                        const originalHref = link.getAttribute('href');
-                        // Skip non-navigational links
-                        if (!originalHref || originalHref.startsWith('#') || originalHref.startsWith('mailto:') || originalHref.startsWith('tel:')) {
-                            continue;
-                        }
-                        try {
-                            // Use link.href as it's the full, absolute URL
-                            const url = new URL(link.href);
-                            // Prevent double-appending
-                            if (url.search.includes(storedParams)) {
-                                continue;
-                            }
-                            // Append all stored params
-                            const newSearchParams = new URLSearchParams(storedParams);
-                            newSearchParams.forEach({
-                                "UtmLinkUpdater.useEffect.timer": (value, key)=>{
-                                    url.searchParams.set(key, value);
-                                }
-                            }["UtmLinkUpdater.useEffect.timer"]);
-                            link.href = url.toString();
-                        } catch (e) {
-                            // This catch is a fallback for any unexpected invalid hrefs
-                            console.error("Could not process link: ".concat(originalHref), e);
-                        }
-                    }
-                }
-            }["UtmLinkUpdater.useEffect.timer"], 100); // A 100ms delay gives React ample time to render everything.
-            // Cleanup the timeout if the component re-renders before it fires
-            return ({
-                "UtmLinkUpdater.useEffect": ()=>clearTimeout(timer)
-            })["UtmLinkUpdater.useEffect"];
-        }
-    }["UtmLinkUpdater.useEffect"], [
-        pathname
-    ]); // Re-run this logic every time the user navigates to a new page
-    return null;
-}
-_s(UtmLinkUpdater, "V/ldUoOTYUs0Cb2F6bbxKSn7KxI=", false, function() {
-    return [
-        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"]
-    ];
-});
-_c = UtmLinkUpdater;
-var _c;
-__turbopack_context__.k.register(_c, "UtmLinkUpdater");
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
-}
-}),
 "[project]/node_modules/@vercel/analytics/dist/react/index.mjs [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -1199,4 +1121,4 @@ else {
 }),
 ]);
 
-//# sourceMappingURL=_2e060c72._.js.map
+//# sourceMappingURL=_42c2116b._.js.map

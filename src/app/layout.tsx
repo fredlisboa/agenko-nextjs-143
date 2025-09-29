@@ -159,8 +159,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         
         {/* Keitaro Tracking - Load after page interactive */}
         <Script 
-          id="keitaro-tracking-script" 
-          strategy="afterInteractive"
+          id="keitaro-tracking-script"
           dangerouslySetInnerHTML={{ __html: `
             if (!window.KTracking){
               window.KTracking={
@@ -188,7 +187,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* Google Tag Manager - Load after interactive */}
         <Script 
           id="google-tag-manager" 
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{ __html: `
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -201,12 +200,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* Google Analytics - Load after interactive */}
         <Script 
           id="google-analytics-loader"
-          strategy="afterInteractive" 
+          strategy="lazyOnload" 
           src="https://www.googletagmanager.com/gtag/js?id=G-0BXKYQERWH"
         />
         <Script 
           id="google-analytics-config"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         >
           {`
             window.dataLayer = window.dataLayer || [];
