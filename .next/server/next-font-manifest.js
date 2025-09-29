@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\n  \"app\": {\n    \"[project]/src/app/(defaultLayout)/page\": [\n      \"static/media/47df9ba1c7236d3b.p.7bbb93ea.woff2\",\n      \"static/media/ce62453a442c7f35.p.a9507876.woff2\"\n    ]\n  },\n  \"appUsingSizeAdjust\": false,\n  \"pages\": {},\n  \"pagesUsingSizeAdjust\": false\n}"
+self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/home/user/agenko-nextjs-143/src/app/layout":["static/media/9cf9c6e84ed13b5e-s.p.woff2","static/media/47cbc4e2adbc5db9-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';

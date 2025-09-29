@@ -3,13 +3,9 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Source_Sans_3, Roboto } from "next/font/google";
 import Script from 'next/script';
 import { UTMProvider } from "@/components/UTMProvider";
-// import { UtmLinkUpdater } from "@/components/UtmLinkUpdater";
 
-// Import CSS files normally - KEEP THESE FOR NOW
-import 'bootstrap/dist/css/bootstrap.min.css';
-import "slick-carousel/slick/slick.css";
-import "./assets/main.css";
-import "./assets/carousel.css";
+// Import global CSS file
+import './global.css';
 
 // Optimize font loading with display swap
 const source_sans = Source_Sans_3({
@@ -130,12 +126,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
         <link rel="dns-prefetch" href="https://hof1.studiodental.dental" />
         <link rel="dns-prefetch" href="https://vitals.vercel-analytics.com" />
-        
-        {/* Bootstrap Icons */}
-        <link 
-          rel="stylesheet"
-          href="/css/bootstrap-icons.min.css"
-        />
         
         {/* Schema JSON-LD */}
         <Script

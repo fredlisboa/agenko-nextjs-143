@@ -2,7 +2,6 @@
   "version": 1,
   "config": {
     "env": {},
-    "webpack": null,
     "eslint": {
       "ignoreDuringBuilds": false
     },
@@ -101,6 +100,9 @@
       }
     },
     "outputFileTracingRoot": "/home/user/agenko-nextjs-143",
+    "allowedDevOrigins": [
+      "3001-firebase-agenko-nextjs-143-1758813114838.cluster-xvr5pmatm5a4gx76fmat6kxt6o.cloudworkstations.dev"
+    ],
     "experimental": {
       "useSkewCookie": false,
       "cacheLife": {
