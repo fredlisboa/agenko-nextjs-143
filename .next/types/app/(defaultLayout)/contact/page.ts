@@ -1,4 +1,4 @@
-// File: /home/user/agenko-nextjs/src/app/(defaultLayout)/contact/page.tsx
+// File: /home/user/agenko-nextjs-143/src/app/(defaultLayout)/contact/page.tsx
 import * as entry from '../../../../../src/app/(defaultLayout)/contact/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

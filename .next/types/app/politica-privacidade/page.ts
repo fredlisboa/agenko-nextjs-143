@@ -1,4 +1,4 @@
-// File: /home/user/agenko-nextjs/src/app/politica-privacidade/page.tsx
+// File: /home/user/agenko-nextjs-143/src/app/politica-privacidade/page.tsx
 import * as entry from '../../../../src/app/politica-privacidade/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

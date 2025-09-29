@@ -11,7 +11,8 @@ const WhoWeAre = () => {
     const videoContainerRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
-        if (!videoContainerRef.current) return;
+        const videoElement = videoContainerRef.current;
+        if (!videoElement) return;
 
         const observer = new IntersectionObserver(
             (entries) => {
@@ -32,11 +33,11 @@ const WhoWeAre = () => {
             }
         );
 
-        observer.observe(videoContainerRef.current);
+        observer.observe(videoElement);
 
         return () => {
-            if (videoContainerRef.current) {
-                observer.unobserve(videoContainerRef.current);
+            if (videoElement) {
+                observer.unobserve(videoElement);
             }
         };
     }, [isVideoLoaded]);

@@ -1,4 +1,4 @@
-// File: /home/user/agenko-nextjs/src/app/2crsads/layout.tsx
+// File: /home/user/agenko-nextjs-143/src/app/2crsads/layout.tsx
 import * as entry from '../../../../src/app/2crsads/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -19,7 +19,7 @@
   "/(defaultLayout)/service/service-details/page": "/service/service-details",
   "/(defaultLayout)/team/page": "/team",
   "/(defaultLayout)/team/team-details/page": "/team/team-details",
-  "/home2/page": "/home2",
+  "/2crsads/page": "/2crsads",
   "/home3/page": "/home3",
-  "/2crsads/page": "/2crsads"
+  "/home2/page": "/home2"
 }

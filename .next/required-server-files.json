@@ -98,7 +98,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/home/user/agenko-nextjs",
+    "outputFileTracingRoot": "/home/user/agenko-nextjs-143",
     "experimental": {
       "useSkewCookie": false,
       "cacheLife": {
@@ -287,10 +287,10 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.mjs",
     "turbopack": {
-      "root": "/home/user/agenko-nextjs"
+      "root": "/home/user/agenko-nextjs-143"
     }
   },
-  "appDir": "/home/user/agenko-nextjs",
+  "appDir": "/home/user/agenko-nextjs-143",
   "relativeAppDir": "",
   "files": [
     ".next/routes-manifest.json",
