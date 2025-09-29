@@ -7756,7 +7756,8 @@ label {
 }
 
 .testimonial-slider-2 .slick-slide img {
-  display: unset;
+  display: inline;
+  display: initial;
 }
 
 .accordion-content {
