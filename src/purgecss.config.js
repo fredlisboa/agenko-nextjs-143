@@ -1,7 +1,7 @@
 // purgecss.config.js
 module.exports = {
     content: ['./src/**/*.{js,jsx,ts,tsx}', './.next/server/app/**/*.html', './public/**/*.html'],
-    css: ['./.next/static/css/**/*.css', './public/css/bootstrap.min.css', './public/css/critical.css', './public/css/slick.css'],
+    css: ['./.next/static/css/**/*.css', './public/css/bootstrap.min.css', './public/css/critical.css', './public/css/slick.css', './public/css/bootstrap-icons.min.css'],
     output: './out/css',
     safelist: [
       'body',

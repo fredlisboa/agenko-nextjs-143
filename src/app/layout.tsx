@@ -3,7 +3,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Source_Sans_3, Roboto } from "next/font/google";
 import Script from 'next/script';
 import { UTMProvider } from "@/components/UTMProvider";
-import { UtmLinkUpdater } from "@/components/UtmLinkUpdater";
+// import { UtmLinkUpdater } from "@/components/UtmLinkUpdater";
 
 // Import CSS files normally - KEEP THESE FOR NOW
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -152,7 +152,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
           <SpeedInsights />
           <Analytics />
-          <UtmLinkUpdater />
+          {/* <UtmLinkUpdater /> */}
         </UTMProvider>
 
         {/* ===== OPTIMIZED SCRIPT LOADING - KEEP THIS PART ===== */}
