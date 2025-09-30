@@ -2,7 +2,7 @@
 
 const nextConfig = {
   compiler: {
-    // Enables the styled-jsx transforms
+    // Enables the styled-jsx transform
     styledJsx: true
   },
   webpack: (config, { isServer }) => {
