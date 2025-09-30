@@ -5,12 +5,12 @@ import React from 'react';
 const Blog4 = () => {
 
     const blogContent = [
-        {img:'/assets/images/pages/blog/blog1.jpg', title:'Medical mobile app design and development', content:'Creating user-friendly medical mobile apps with innovative designs and seamless.'},
-        {img:'/assets/images/pages/blog/blog2.jpg', title:'Sales management mobile app design solutions', content:'Creating user-friendly medical mobile apps with innovative designs and seamless.'},
-        {img:'/assets/images/pages/blog/blog3.jpg', title:'Financial and wallet website design services', content:'Creating user-friendly medical mobile apps with innovative designs and seamless.'},
-        {img:'/assets/images/pages/blog/blog4.jpg', title:'Sales Team Productivity Starts with Great App Design', content:'Creating user-friendly medical mobile apps with innovative designs and seamless.'},
-        {img:'/assets/images/pages/blog/blog5.jpg', title:'Optimizing Sales Workflows with Effective App UI/UX Design', content:'Creating user-friendly medical mobile apps with innovative designs and seamless.'},
-        {img:'/assets/images/pages/blog/blog6.jpg', title:'Boost Sales Efficiency with Smart Mobile App Design Strategies', content:'Creating user-friendly medical mobile apps with innovative designs and seamless.'},
+        {img:'/assets/images/pages/blog/blog1.jpg', title:'Laser Lavieen: A Revolução no Rejuvenescimento da Harmonização Orofacial', content:'Descubra como o Laser Lavieen transforma a pele, tratando manchas, rugas e flacidez. Entenda por que ele é um pilar da Harmonização Orofacial em Goiânia para resultados naturais e duradouros. Agende sua avaliação.'},
+        // {img:'/assets/images/pages/blog/blog2.jpg', title:'Sales management mobile app design solutions', content:'Creating user-friendly medical mobile apps with innovative designs and seamless.'},
+        // {img:'/assets/images/pages/blog/blog3.jpg', title:'Financial and wallet website design services', content:'Creating user-friendly medical mobile apps with innovative designs and seamless.'},
+        // {img:'/assets/images/pages/blog/blog4.jpg', title:'Sales Team Productivity Starts with Great App Design', content:'Creating user-friendly medical mobile apps with innovative designs and seamless.'},
+        // {img:'/assets/images/pages/blog/blog5.jpg', title:'Optimizing Sales Workflows with Effective App UI/UX Design', content:'Creating user-friendly medical mobile apps with innovative designs and seamless.'},
+        // {img:'/assets/images/pages/blog/blog6.jpg', title:'Boost Sales Efficiency with Smart Mobile App Design Strategies', content:'Creating user-friendly medical mobile apps with innovative designs and seamless.'},
       ]; 
 
 
@@ -26,12 +26,12 @@ const Blog4 = () => {
                                 </div>
                                 <div className="post-content">
                                     <div className="post-meta">
-                                        <span><i className="bi bi-person"></i>Alex Mika</span>
-                                        <span><i className="bi bi-calendar-fill"></i>Dec12, 2024</span>
-                                        <span><i className="bi bi-chat"></i>5 Comment</span>
+                                        <span><i className="bi bi-person"></i>Gabriella Lisboa</span>
+                                        <span><i className="bi bi-calendar-fill"></i>30/09/2025</span>
+                                        <span><i className="bi bi-chat"></i>5 Comentários</span>
                                     </div>
-                                    <h4 className="title"><Link href="/blog/blog-details">{item.title}</Link></h4>
-                                    <p>{item.content}</p>
+                                    <h4 className="title" style={{textAlign: 'justify', hyphens: 'auto'}}><Link href="/blog/blog-details">{item.title}</Link></h4>
+                                    <p style={{textAlign: 'justify', hyphens: 'auto'}}>{item.content}</p>
                                 </div>
                             </div>
                         </div>

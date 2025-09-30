@@ -5919,6 +5919,7 @@ label {
 }
 .blog-details-wrapper .agenko-post-item .entry-footer .tag-links a:not(:last-child) {
   margin-right: 10px;
+  margin-top: 8px;
 }
 @media (max-width: 767px) {
   .blog-details-wrapper .agenko-post-item .entry-footer .social-share {

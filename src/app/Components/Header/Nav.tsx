@@ -9,7 +9,7 @@ export default function Nav({ setMobileToggle }) {
     const href = e.currentTarget.getAttribute('href');
     
     // Check if it's an anchor link
-    if (href && href.startsWith('/#')) {
+    if (href && href.startsWith('/.#')) {
       // If on the homepage, prevent default and perform smooth scroll
       if (pathname === '/') {
         e.preventDefault();
@@ -90,14 +90,9 @@ export default function Nav({ setMobileToggle }) {
             </ul>
           </DropDown>
       </li>   
-      {/* <li>
-        <Link href="#blog" onClick={() => setMobileToggle(false)}>
-          Blog
-        </Link>
-      </li> */}
       <li>
-        <Link href="/contact" onClick={() => setMobileToggle(false)}>
-          Contato
+        <Link href="/blog" onClick={handleScroll}>
+          Blog
         </Link>
       </li>
     </ul>

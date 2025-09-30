@@ -6,7 +6,7 @@ const page = () => {
   return (
     <div>
             <BreadCumb
-                Title="Blog Dra Gabriella Lisboa"
+                Title="Blog"
                 content="Harmonização Orofacial em Goiânia-GO"
             ></BreadCumb> 
             <Blog4></Blog4>      
