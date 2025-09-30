@@ -12,7 +12,7 @@ const BlogDetails = () => {
                                 <div className="agenko-post-item pf_fadeup">
                                     <div className="main-post">
                                         <div className="post-thumbnail">
-                                        <Image src="/assets/images/pages/blog/blog-single1.jpg" alt="img" width={777} height={605}   />
+                                        <Image src="/assets/images/pages/blog/lvieen.png" alt="img" width={777} height={605}   />
                                         </div>
                                         <div className="post-content" style={{marginBottom: '0px'}}>
                                             <div className="post-meta">
@@ -178,17 +178,17 @@ const BlogDetails = () => {
                                     <div className="widget-content">
                                         <h4 className="sidebar-title">Categorias</h4>
                                         <ul className="widget-nav">
-                                            <li><a href="#">Harmonização Orofacial <span>(05)</span></a></li>
-                                            <li><a href="#">Rejuvenescimento Facial <span>(03)</span></a></li>
-                                            <li><a href="#">Preenchimento e Contorno <span>(06)</span></a></li>
-                                            <li><a href="#">Tratamentos para Flacidez  <span>(08)</span></a></li>
-                                            <li><a href="#">Cuidados com a Pele  <span>(10)</span></a></li>
-                                            <li><a href="#">Dicas e Mitos sobre HOF  <span>(12)</span></a></li>
+                                            <li><a href="#">Harmonização Orofacial <span>(01)</span></a></li>
+                                            <li><a href="#">Rejuvenescimento Facial <span>(01)</span></a></li>
+                                            <li><a href="#">Preenchimento e Contorno <span>(01)</span></a></li>
+                                            <li><a href="#">Tratamentos para Flacidez  <span>(01)</span></a></li>
+                                            <li><a href="#">Cuidados com a Pele  <span>(01)</span></a></li>
+                                            <li><a href="#">Dicas e Mitos sobre HOF  <span>(01)</span></a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 
-                                <div className="sidebar-widget sidebar-post-widget mb-30 pf_fadeup">
+                                {/* <div className="sidebar-widget sidebar-post-widget mb-30 pf_fadeup">
                                     <div className="widget-content">
                                         <h4 className="sidebar-title">Posts Recentes</h4>
                                         <ul className="recent-post-list">
@@ -218,20 +218,20 @@ const BlogDetails = () => {
                                             </li>
                                         </ul>
                                     </div>
-                                </div>
-                                
+                                </div> */}
                                 <div className="sidebar-widget sidebar-tag-widget pf_fadeup mb-30">
                                     <div className="widget-content">
-                                        <h4 className="sidebar-title">Popular Tags</h4>
+                                        <h4 className="sidebar-title">Tags Populares</h4>
                                         <div className="tagcloud">
-                                            <a href="#">Design</a>
-                                            <a href="#">Creative</a>
-                                            <a href="#">Modern</a>
-                                            <a href="#">Digital</a>
-                                            <a href="#">Minimal</a>
-                                            <a href="#">Agenko</a>
-                                            <a href="#">Business</a>
-                                            <a href="#">Financial</a>
+                                            <a href="#">Laser Lavieen</a>
+                                            <a href="#">Harmonização Orofacial</a>
+                                            <a href="#">Estética Facial</a>
+                                            <a href="#">Rejuvenescimento Facial</a>
+                                            <a href="#">Tratamento de Melasma</a>
+                                            <a href="#">Colágeno</a>
+                                            <a href="#">Goiânia</a>
+                                            <a href="#">Goiás</a>
+                                            <a href="#">Brasil</a>
                                         </div>
                                     </div>
                                 </div>

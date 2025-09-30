@@ -5,7 +5,7 @@ import React from 'react';
 const Blog4 = () => {
 
     const blogContent = [
-        {img:'/assets/images/pages/blog/blog1.jpg', title:'Laser Lavieen: A Revolução no Rejuvenescimento da Harmonização Orofacial', content:'Descubra como o Laser Lavieen transforma a pele, tratando manchas, rugas e flacidez. Entenda por que ele é um pilar da Harmonização Orofacial em Goiânia para resultados naturais e duradouros. Agende sua avaliação.'},
+        {img:'/assets/images/pages/blog/lvieen-410x320.png', title:'Laser Lavieen: A Revolução no Rejuvenescimento da Harmonização Orofacial', content:'Descubra como o Laser Lavieen transforma a pele, tratando manchas, rugas e flacidez. Entenda por que ele é um pilar da Harmonização Orofacial em Goiânia para resultados naturais e duradouros. Agende sua avaliação.'},
         // {img:'/assets/images/pages/blog/blog2.jpg', title:'Sales management mobile app design solutions', content:'Creating user-friendly medical mobile apps with innovative designs and seamless.'},
         // {img:'/assets/images/pages/blog/blog3.jpg', title:'Financial and wallet website design services', content:'Creating user-friendly medical mobile apps with innovative designs and seamless.'},
         // {img:'/assets/images/pages/blog/blog4.jpg', title:'Sales Team Productivity Starts with Great App Design', content:'Creating user-friendly medical mobile apps with innovative designs and seamless.'},
