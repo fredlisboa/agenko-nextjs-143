@@ -6,8 +6,8 @@ const page = () => {
   return (
     <div>
               <BreadCumb
-                Title="Blog Details"
-                content="Agenko empowers businesses with innovative strategies & creative agency solutions"
+                Title="Blog Dra Gabriella Lisboa"
+                content="Harmonização Orofacial em Goiânia-GO"
             ></BreadCumb> 
             <BlogDetails></BlogDetails>       
     </div>
