@@ -97,6 +97,9 @@ const Footer = () => {
                                                     <Link href="/#redes-sociais" onClick={handleSmoothScroll}>Redes Sociais</Link>
                                                 </li>
                                                 <li>
+                                                    <Link href="/blog">Blog</Link>
+                                                </li>
+                                                <li>
                                                     <Link href="/contact">Contato</Link>
                                                 </li>
                                             </ul>
