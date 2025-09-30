@@ -8,6 +8,10 @@ import { UTMProvider } from "@/components/UTMProvider";
 
 // Import global CSS file
 import './global.css';
+import '../../public/css/bootstrap.min.css'
+import '../../public/css/slick.css';
+import '../../public/css/critical.css'
+import '@/app/assets/main.css';
 
 // Optimize font loading with display swap
 const source_sans = Source_Sans_3({
@@ -85,28 +89,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
         <link rel="dns-prefetch" href="https://hof1.studiodental.dental" />
         <link rel="dns-prefetch" href="https://vitals.vercel-analytics.com" />
-        
-        {/* Bootstrap CSS */}
-        <link
-          rel="preload"
-          href="/css/bootstrap.min.css"
-          as="style"
-          onLoad={(event) => {(event.target as HTMLLinkElement).onload=null;(event.target as HTMLLinkElement).rel='stylesheet'}}
-        />
-        <noscript>
-          <link rel="stylesheet" href="/css/bootstrap.min.css" />
-        </noscript>
-
-        {/* Slick Carousel CSS */}
-        <link
-          rel="preload"
-          href="/css/slick.css"
-          as="style"
-          onLoad={(event) => {(event.target as HTMLLinkElement).onload=null;(event.target as HTMLLinkElement).rel='stylesheet'}}
-        />
-        <noscript>
-          <link rel="stylesheet" href="/css/slick.css" />
-        </noscript>
         
         {/* Schema JSON-LD */}
         <Script
