@@ -16,21 +16,30 @@ const BlogDetails = () => {
                                         </div>
                                         <div className="post-content">
                                             <div className="post-meta">
-                                            <span><i className="bi bi-person"></i>Alex Mika</span>
-                                        <span><i className="bi bi-calendar-fill"></i>Dec12, 2024</span>
-                                        <span><i className="bi bi-chat"></i>5 Comment</span>
+                                            <span><i className="bi bi-person"></i>Gabriella Lisboa</span>
+                                        <span><i className="bi bi-calendar-fill"></i>30/09/2025</span>
+                                        <span><i className="bi bi-chat"></i>5 Comentários</span>
                                             </div>
-                                            <h4 className="post-title">Medical Mobile Design & Development </h4>
-                                            <p>Creating user-friendly medical mobile apps with innovative designs and seamless functionality to enhance healthcare accessibility and patient engagement. Designing and developing innovative medical mobile apps with user-friendly interfaces, advanced features, and secure functionality to enhance healthcare delivery, streamline processes, and improve patient engagement and satisfaction</p>
-                                            <p>A versatile template crafted to narrate the journey of your project, detailing its origins, inspirations, and key influences. Functionality to enhance healthcare delivery, streamline processes, and improve patient engagement and satisfaction</p>
+                                            <h4 className="post-title">Laser Lavieen: A Revolução no Rejuvenescimento da Harmonização Orofacial </h4>
                                             <blockquote>
                                                 <div className="icon"><i className="flaticon-inverted-commas"></i></div>
-                                                <h4>Agenko Agency transformed our business with their innovative strategies and dedicated support. Their team understood </h4>
-                                                <div className="author-info">
-                                                    <h4>Mr. David Liam</h4>
-                                                    <h5>CEO & Founder</h5>
-                                                </div>
+                                                <h4>Descubra como o Laser Lavieen transforma a pele, tratando manchas, rugas e flacidez. Entenda por que ele é um pilar da Harmonização Orofacial em Goiânia para resultados naturais e duradouros. Agende sua avaliação.</h4>
+                                                {/* <div className="author-info">
+                                                    <h4>Gabriella Lisboa</h4>
+                                                    <h5>Harmonização Facial</h5>
+                                                </div> */}
                                             </blockquote>
+                                            <p>Você já ouviu falar do "efeito BB Cream" sem maquiagem? Uma pele uniforme, com brilho natural e textura aveludada é o desejo de muitos pacientes que buscam realçar sua beleza. No universo da estética avançada, o Laser Lavieen surge como uma das tecnologias mais eficazes para alcançar esse objetivo, sendo um pilar fundamental nos tratamentos de Harmonização Orofacial em Goiânia.</p>
+                                            <p>Neste artigo, vamos explorar o que é o Laser Lavieen e quais os benefícios que ele traz para a sua pele e para a sua autoestima.</p>
+                                            <h4>O que é o Laser Lavieen?</h4>
+                                            <p>O Laser Lavieen é uma tecnologia de laser não ablativo que atua na camada mais superficial da pele, promovendo uma renovação celular intensa sem o tempo de recuperação agressivo de outros lasers. Ele é conhecido por sua versatilidade e precisão, restaurando a saúde da pele de dentro para fora e proporcionando um rejuvenescimento notável.</p>
+                                            <h4>Principais Benefícios do Laser Lavieen na Estética Facial</h4>
+                                            <p>A aplicação do Lavieen vai muito além de um simples tratamento. Ele é uma ferramenta poderosa para quem busca uma pele visivelmente mais saudável e jovem.</p>
+                                            <h5>1. Estímulo Intenso de Colágeno e Elastina</h5>
+                                            <p>Um dos maiores benefícios do Lavieen é sua capacidade de aquecer as camadas da pele e estimular a produção de colágeno e elastina, as proteínas responsáveis pela firmeza e elasticidade. Este processo é fundamental para tratar a flacidez, complementando tratamentos como os Bioestimuladores de Colágeno que também atuam na reestruturação dérmica.</p>
+                                            {/* <p></p>
+                                            <p></p>
+                                            <p></p> */}
                                             <div className="row">
                                                 <div className="col-md-6">
                                                     <div className="block-image mb-40">
@@ -64,15 +73,14 @@ const BlogDetails = () => {
                                         </div>
                                         <div className="social-share">
                                             <span>share:</span>
-                                            <a href="#"><i className="bi bi-facebook"></i></a>
+                                            {/* <a href="#"><i className="bi bi-facebook"></i></a>
                                             <a href="#"><i className="bi bi-twitter-x"></i></a>
-                                            <a href="#"><i className="bi bi-linkedin"></i></a>
+                                            <a href="#"><i className="bi bi-linkedin"></i></a> */}
                                             <a href="#"><i className="bi bi-instagram"></i></a>
                                         </div>
                                     </div>
                                 </div>
-                                
-                                <div className="comments-area mt-60 mb-50 pf_fadeup">
+                                {/* <div className="comments-area mt-60 mb-50 pf_fadeup">
                                     <h3 className="comments-title">Popular Comments</h3>
                                     <ul className="comments-list">
                                         <li>
@@ -104,9 +112,8 @@ const BlogDetails = () => {
                                             </div>
                                         </li>
                                     </ul>
-                                </div>
-                                
-                                <div className="agenko-contact-form style-two mb-30 pf_fadeup">
+                                </div> */}
+                                {/* <div className="agenko-contact-form style-two mb-30 pf_fadeup">
                                     <h3 className="comments-heading mb-25">Leave a Comments</h3>
                                     <form className="comment-form">
                                         <div className="row">
@@ -132,7 +139,7 @@ const BlogDetails = () => {
                                             </div>
                                         </div>
                                     </form>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className="col-xl-4">
@@ -141,7 +148,7 @@ const BlogDetails = () => {
                                 
                                 <div className="sidebar-widget sidebar-search-widget mb-30 pf_fadeup">
                                     <div className="widget-content">
-                                        <h4 className="sidebar-title">Search</h4>
+                                        <h4 className="sidebar-title">Procurar</h4>
                                         <form>
                                             <div className="form-group">
                                                 <input type="search" className="form_control" placeholder="Search here..." name="search" required />
@@ -153,7 +160,7 @@ const BlogDetails = () => {
                                 
                                 <div className="sidebar-widget sidebar-category-widget mb-30 pf_fadeup">
                                     <div className="widget-content">
-                                        <h4 className="sidebar-title">Categories</h4>
+                                        <h4 className="sidebar-title">Categorias</h4>
                                         <ul className="widget-nav">
                                             <li><a href="#">Creative Agency <span>(05)</span></a></li>
                                             <li><a href="#">Modern Agency <span>(03)</span></a></li>
