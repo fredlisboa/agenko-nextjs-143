@@ -6,31 +6,40 @@ import { Source_Sans_3, Roboto } from "next/font/google";
 import Script from 'next/script';
 import { UTMProvider } from "@/components/UTMProvider";
 
-// Import global CSS file
+// ============================================
+// OTIMIZAÇÃO DE CSS - Importação Seletiva
+// ============================================
 import './global.css';
-import '../../public/css/bootstrap.min.css'
+// ⚠️ MUDANÇA: Substituir bootstrap completo por versão customizada
+import '@/styles/custom-bootstrap.scss'; // <- Bootstrap otimizado (reduz ~74 KiB)
 import '../../public/css/slick.css';
-import '../../public/css/critical.css'
+import '../../public/css/critical.css';
 import '@/app/assets/main.css';
 
-// Optimize font loading with display swap
+// ============================================
+// OTIMIZAÇÃO DE FONTES - Font Display Swap
+// ============================================
 const source_sans = Source_Sans_3({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700', '800'],
   variable: '--heading-font',
-  display: 'swap',
+  display: 'swap', // ✅ Previne FOIT
   fallback: ['system-ui', 'arial', 'sans-serif'],
+  preload: true,
 });
 
 const roboto = Roboto({
   subsets: ['latin'],
   weight: ['400', '500', '700'],
   variable: '--body-font',
-  display: 'swap',
+  display: 'swap', // ✅ Previne FOIT
   fallback: ['system-ui', 'arial', 'sans-serif'],
+  preload: true,
 });
 
-
+// ============================================
+// SCHEMA JSON-LD para SEO
+// ============================================
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "MedicalBusiness",
@@ -77,18 +86,26 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="pt-BR">
       <head>
-        {/* Critical preconnects for performance */}
+        {/* ============================================ */}
+        {/* OTIMIZAÇÃO DE PERFORMANCE - Preconnects */}
+        {/* ============================================ */}
+        
+        {/* Critical preconnects (DNS + TCP + TLS) */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://iframe.mediadelivery.net" />
         <link rel="preconnect" href="https://assets.mediadelivery.net" />
         
-        {/* DNS prefetch for non-critical domains */}
+        {/* ✨ NOVO: Preconnect sugerido pelo PageSpeed (economia de 300ms) */}
+        <link rel="preconnect" href="https://hof1.studiodental.dental" />
+        
+        {/* DNS prefetch para domínios não-críticos (apenas DNS) */}
         <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
-        <link rel="dns-prefetch" href="https://hof1.studiodental.dental" />
         <link rel="dns-prefetch" href="https://vitals.vercel-analytics.com" />
+        <link rel="dns-prefetch" href="https://connect.facebook.net" />
+        <link rel="dns-prefetch" href="https://analytics.tiktok.com" />
         
         {/* Schema JSON-LD */}
         <Script
@@ -108,11 +125,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {/* <UtmLinkUpdater /> */}
         </UTMProvider>
 
-        {/* ===== OPTIMIZED SCRIPT LOADING - KEEP THIS PART ===== */}
+        {/* ============================================ */}
+        {/* SCRIPTS OTIMIZADOS - Lazy Loading */}
+        {/* ============================================ */}
         
         {/* Keitaro Tracking - Load after page interactive */}
         <Script 
           id="keitaro-tracking-script"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{ __html: `
             if (!window.KTracking){
               window.KTracking={
@@ -174,6 +194,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         
         {/* Noscript fallbacks */}
         <noscript>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img height='0' width='0' alt='' src='https://hof1.studiodental.dental/zR1jFW7b'/>
         </noscript>
         <noscript>
