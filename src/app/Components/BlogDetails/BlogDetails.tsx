@@ -29,7 +29,7 @@ const BlogDetails = () => {
                                                     <h5>Harmonização Facial</h5>
                                                 </div> */}
                                             </blockquote>
-                                            <p>Você já ouviu falar do "efeito BB Cream" sem maquiagem? Uma pele uniforme, com brilho natural e textura aveludada é o desejo de muitos pacientes que buscam realçar sua beleza. No universo da estética avançada, o Laser Lavieen surge como uma das tecnologias mais eficazes para alcançar esse objetivo, sendo um pilar fundamental nos tratamentos de Harmonização Orofacial em Goiânia.</p>
+                                            <p>Você já ouviu falar do &quot;efeito BB Cream&quot; sem maquiagem? Uma pele uniforme, com brilho natural e textura aveludada é o desejo de muitos pacientes que buscam realçar sua beleza. No universo da estética avançada, o Laser Lavieen surge como uma das tecnologias mais eficazes para alcançar esse objetivo, sendo um pilar fundamental nos tratamentos de Harmonização Orofacial em Goiânia.</p>
                                             <p>Neste artigo, vamos explorar o que é o Laser Lavieen e quais os benefícios que ele traz para a sua pele e para a sua autoestima.</p>
                                             <h4>O que é o Laser Lavieen?</h4>
                                             <p>O Laser Lavieen é uma tecnologia de laser não ablativo que atua na camada mais superficial da pele, promovendo uma renovação celular intensa sem o tempo de recuperação agressivo de outros lasers. Ele é conhecido por sua versatilidade e precisão, restaurando a saúde da pele de dentro para fora e proporcionando um rejuvenescimento notável.</p>
