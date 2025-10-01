@@ -1,5 +1,3 @@
 {
-  "/(defaultLayout)/page": "app/(defaultLayout)/page.js",
-  "/(defaultLayout)/blog/page": "app/(defaultLayout)/blog/page.js",
   "/(defaultLayout)/blog/blog-details/page": "app/(defaultLayout)/blog/blog-details/page.js"
 }

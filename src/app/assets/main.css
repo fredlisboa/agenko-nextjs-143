@@ -7541,3 +7541,7 @@ color: #222;
   height: auto;
   object-fit: cover;
 }
+.blog-details-subtitle {
+  margin-bottom: 15px;
+}
+

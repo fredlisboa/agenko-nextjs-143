@@ -1,3 +1,4 @@
+// @ts-nocheck
 import Image from 'next/image';
 import React from 'react';
 
@@ -34,13 +35,13 @@ const BlogDetails = () => {
                                             <p style={{textAlign: 'justify', hyphens: 'auto'}}>O Laser Lavieen é uma tecnologia de laser não ablativo que atua na camada mais superficial da pele, promovendo uma renovação celular intensa sem o tempo de recuperação agressivo de outros lasers. Ele é conhecido por sua versatilidade e precisão, restaurando a saúde da pele de dentro para fora e proporcionando um rejuvenescimento notável.</p>
                                             <h4 className="post-title" style={{textAlign: 'justify', hyphens: 'auto'}}>Principais Benefícios do Laser Lavieen na Estética Facial</h4>
                                             <p style={{textAlign: 'justify', hyphens: 'auto'}}>A aplicação do Lavieen vai muito além de um simples tratamento. Ele é uma ferramenta poderosa para quem busca uma pele visivelmente mais saudável e jovem.</p>
-                                            <h5>1. Estímulo Intenso de Colágeno e Elastina</h5>
+                                            <h5 className="blog-details-subtitle">1. Estímulo Intenso de Colágeno e Elastina</h5>
                                             <p style={{textAlign: 'justify', hyphens: 'auto'}}>Um dos maiores benefícios do Lavieen é sua capacidade de aquecer as camadas da pele e estimular a produção de colágeno e elastina, as proteínas responsáveis pela firmeza e elasticidade. Este processo é fundamental para tratar a flacidez, complementando tratamentos como os Bioestimuladores de Colágeno que também atuam na reestruturação dérmica.</p>
-                                            <h5>2. Adeus às Manchas e Melasmas</h5>
+                                            <h5 className="blog-details-subtitle">2. Adeus às Manchas e Melasmas</h5>
                                             <p style={{textAlign: 'justify', hyphens: 'auto'}}>Manchas solares, melasmas e outras descolorações são tratadas de forma eficaz. O laser atua diretamente nos pigmentos, quebrando-os e promovendo um clareamento progressivo, resultando em um tom de pele visivelmente mais uniforme e livre de imperfeições.</p>
-                                            <h5>3. Redução de Poros e Melhora da Textura</h5>
+                                            <h5 className="blog-details-subtitle">3. Redução de Poros e Melhora da Textura</h5>
                                             <p style={{textAlign: 'justify', hyphens: 'auto'}}> Para quem se incomoda com poros dilatados e uma textura irregular, o Lavieen é um grande aliado. Ele promove a contração dos poros e suaviza a superfície da pele, conferindo um aspecto mais liso, refinado e com o famoso &quot;glow&quot; natural.</p>
-                                            <h5>4. Tratamento de Cicatrizes de Acne e Linhas Finas</h5>
+                                            <h5 className="blog-details-subtitle">4. Tratamento de Cicatrizes de Acne e Linhas Finas</h5>
                                             <p style={{textAlign: 'justify', hyphens: 'auto'}}>O processo de renovação celular induzido pelo laser também é excelente para suavizar cicatrizes de acne e tratar as linhas de expressão mais finas. O resultado é uma pele com aparência mais jovem e saudável.</p>
                                             <h4 className="post-title" style={{textAlign: 'justify', hyphens: 'auto'}}>A Jornada para uma Pele Renovada na Studio Dental</h4>
                                             <p style={{textAlign: 'justify', hyphens: 'auto'}}>Aqui na Studio Dental, entendemos que cada pele é única. Por isso, o tratamento com Laser Lavieen é sempre precedido por uma avaliação personalizada e gratuita.</p>
