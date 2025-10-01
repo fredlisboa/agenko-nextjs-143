@@ -28,7 +28,7 @@ const Blog4 = () => {
                                     <div className="post-meta">
                                         <span><i className="bi bi-person"></i>Gabriella Lisboa</span>
                                         <span><i className="bi bi-calendar-fill"></i>30/09/2025</span>
-                                        <span><i className="bi bi-chat"></i>5 Comentários</span>
+                                        {/* <span><i className="bi bi-chat"></i>5 Comentários</span> */}
                                     </div>
                                     <h4 className="title" style={{textAlign: 'justify', hyphens: 'auto'}}><Link href="/blog/blog-details">{item.title}</Link></h4>
                                     <p style={{textAlign: 'justify', hyphens: 'auto'}}>{item.content}</p>

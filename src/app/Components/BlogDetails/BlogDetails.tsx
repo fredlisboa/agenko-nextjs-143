@@ -12,13 +12,13 @@ const BlogDetails = () => {
                                 <div className="agenko-post-item pf_fadeup">
                                     <div className="main-post">
                                         <div className="post-thumbnail">
-                                        <Image src="/assets/images/pages/blog/lvieen.png" alt="img" width={777} height={605}   />
+                                        <Image src="/assets/images/pages/blog/lvieen.png" alt="img" width={770} height={600}   />
                                         </div>
                                         <div className="post-content" style={{marginBottom: '0px'}}>
                                             <div className="post-meta">
                                             <span><i className="bi bi-person"></i>Gabriella Lisboa</span>
                                         <span><i className="bi bi-calendar-fill"></i>30/09/2025</span>
-                                        <span><i className="bi bi-chat"></i>5 Comentários</span>
+                                        {/* <span><i className="bi bi-chat"></i>5 Comentários</span> */}
                                             </div>
                                             <h4 className="post-title" style={{textAlign: 'justify', hyphens: 'auto'}}>Laser Lavieen: A Revolução no Rejuvenescimento da Harmonização Orofacial</h4>
                                             {/* <blockquote>
