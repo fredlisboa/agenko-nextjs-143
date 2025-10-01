@@ -5,8 +5,8 @@ import React from 'react';
 const Blog4 = () => {
 
     const blogContent = [
-        {img:'/assets/images/pages/blog/lvieen-410x320.png', title:'Laser Lavieen: A Revolução no Rejuvenescimento da Harmonização Orofacial', content:'Descubra como o Laser Lavieen transforma a pele, tratando manchas, rugas e flacidez. Entenda por que ele é um pilar da Harmonização Orofacial em Goiânia para resultados naturais e duradouros. Agende sua avaliação.', date: '30/09/2025'},
-        {img:'/assets/images/pages/blog/blog2.jpg', title:'Harmonização Orofacial em Goiânia: O Guia Definitivo para um Rosto em Equilíbrio', content:'O que é Harmonização Orofacial? Descubra como tratar linhas de expressão, usar preenchimentos e bioestimuladores para alcançar resultados naturais e elevar sua autoestima. Agende sua avaliação em Goiânia.', date: '20/02/2025'},
+        {img:'/assets/images/pages/blog/lvieen-410x320.png', title:'Laser Lavieen: A Revolução no Rejuvenescimento da Harmonização Orofacial', content:'Descubra como o Laser Lavieen transforma a pele, tratando manchas, rugas e flacidez. Entenda por que ele é um pilar da Harmonização Orofacial em Goiânia para resultados naturais e duradouros. Agende sua avaliação.', date: '30/09/2025', url: '/blog/lavieen'},
+        {img:'/assets/images/pages/blog/blog2.jpg', title:'Harmonização Orofacial em Goiânia: O Guia Definitivo para um Rosto em Equilíbrio', content:'O que é Harmonização Orofacial? Descubra como tratar linhas de expressão, usar preenchimentos e bioestimuladores para alcançar resultados naturais e elevar sua autoestima. Agende sua avaliação em Goiânia.', date: '20/02/2025', url: '/blog/lavieen'},
         // {img:'/assets/images/pages/blog/blog3.jpg', title:'Financial and wallet website design services', content:'Creating user-friendly medical mobile apps with innovative designs and seamless.'},
         // {img:'/assets/images/pages/blog/blog4.jpg', title:'Sales Team Productivity Starts with Great App Design', content:'Creating user-friendly medical mobile apps with innovative designs and seamless.'},
         // {img:'/assets/images/pages/blog/blog5.jpg', title:'Optimizing Sales Workflows with Effective App UI/UX Design', content:'Creating user-friendly medical mobile apps with innovative designs and seamless.'},
@@ -30,7 +30,7 @@ const Blog4 = () => {
                                         <span><i className="bi bi-calendar-fill"></i>{item.date}</span>
                                         {/* <span><i className="bi bi-chat"></i>5 Comentários</span> */}
                                     </div>
-                                    <h4 className="title" style={{textAlign: 'justify', hyphens: 'auto'}}><Link href="/blog/blog-details">{item.title}</Link></h4>
+                                    <h4 className="title" style={{textAlign: 'justify', hyphens: 'auto'}}><Link href={item.url}>{item.title}</Link></h4>
                                     <p style={{textAlign: 'justify', hyphens: 'auto'}}>{item.content}</p>
                                 </div>
                             </div>
