@@ -7078,6 +7078,12 @@ label {
   width: 100%;
   height: 100%;
 }
+.blog-details-wrapper .agenko-post-item .post-thumbnail img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 @media (max-width: 991.98px) {
   .agk-image-box {
     margin-top: 0px;
@@ -32253,5 +32259,11 @@ color: #222;
     position: relative;
     width: 100%;
     height: 100%;
+}
+.blog-details-wrapper .agenko-post-item .post-thumbnail img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
