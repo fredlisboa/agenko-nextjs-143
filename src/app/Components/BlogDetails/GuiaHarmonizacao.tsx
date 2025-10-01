@@ -37,7 +37,7 @@ const BlogDetails = () => {
                                             <h4 className="post-title" style={{textAlign: 'justify', hyphens: 'auto'}}>Os Pilares da Harmonização Facial: Principais Tratamentos</h4>
                                             <p style={{textAlign: 'justify', hyphens: 'auto'}}>A HOF engloba uma série de procedimentos minimamente invasivos. Conheça os mais procurados:</p>
                                             <h5 className="blog-details-subtitle">1. Tratamento para Linhas de Expressão</h5>
-                                            <p style={{textAlign: 'justify', hyphens: 'auto'}}>Ideal para suavizar rugas dinâmicas, como os "pés de galinha", linhas na testa e entre as sobrancelhas. Este tratamento para linhas de expressão atua de forma precisa no relaxamento dos músculos faciais responsáveis por essas marcas, proporcionando uma aparência mais descansada e rejuvenescida, sem perder a expressividade natural.</p>
+                                            <p style={{textAlign: 'justify', hyphens: 'auto'}}>Ideal para suavizar rugas dinâmicas, como os &ldquo;pés de galinha&rdquo;, linhas na testa e entre as sobrancelhas. Este tratamento para linhas de expressão atua de forma precisa no relaxamento dos músculos faciais responsáveis por essas marcas, proporcionando uma aparência mais descansada e rejuvenescida, sem perder a expressividade natural.</p>
                                             <h5 className="blog-details-subtitle">2. Preenchimento Facial com Ácido Hialurônico</h5>
                                             <p style={{textAlign: 'justify', hyphens: 'auto'}}>É a arte de esculpir e devolver volume ao rosto. O preenchimento facial é usado para definir os lábios, projetar o malar (maçãs do rosto), corrigir olheiras profundas e até mesmo realizar a rinomodelação, ajustando o contorno do nariz sem cirurgia.</p>
                                             <h5 className="blog-details-subtitle">3. Combate à Flacidez (Bioestimuladores e Fios de PDO)</h5>
@@ -81,7 +81,7 @@ const BlogDetails = () => {
                                                 <li><i className="bi bi-check2-square"></i>Rejuvenescimento a Laser (Lavieen)</li>
                                                 <li><i className="bi bi-check2-square"></i>Estímulo de Colágeno e Elastina</li>
                                                 <li><i className="bi bi-check2-square"></i>Tratamento de Manchas e Melasma</li>
-                                                <li><i className="bi bi-check2-square"></i>Redução de Poros e Melhora da Textura da Pele</li>
+                                                <li><I className="bi bi-check2-square"></i>Redução de Poros e Melhora da Textura da Pele</li>
                                                 <li><i className="bi bi-check2-square"></i>Suavização de Linhas Finas e Cicatrizes</li>
                                             </ul> */}
                                         </div>
