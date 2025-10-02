@@ -10,10 +10,10 @@ export default function RootLayout({
 }) {
   return (
     <div className='main-page-area bg-color2'>
-      <Script id="2crsads-script" strategy="beforeInteractive">
+      <Script id="2crsads-script" strategy="afterInteractive">
         {`
           (function() {
-              console.log('2crsads script started');
+              console.log('2crsads script started - afterInteractive');
               const queryString = window.location.search;
               const urlParams = new URLSearchParams(queryString);
               const paramsData = {};
@@ -41,7 +41,7 @@ export default function RootLayout({
                   if (response.ok) {
                       console.log('Webhook sent successfully.');
                   } else {
-                      console.error('Failed to send webhook.');
+                      console.error('Failed to send webhook. Status:', response.status);
                   }
               })
               .catch(error => {
