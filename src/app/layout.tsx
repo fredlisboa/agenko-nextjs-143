@@ -125,7 +125,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {/* <UtmLinkUpdater /> */}
         </UTMProvider>
 
-        {/* ============================================ */}
+        {/* ============================================= */}
         {/* SCRIPTS OTIMIZADOS - Lazy Loading */}
         {/* ============================================ */}
         
