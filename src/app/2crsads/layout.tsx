@@ -13,6 +13,7 @@ export default function RootLayout({
       <Script id="2crsads-script" strategy="beforeInteractive">
         {`
           (function() {
+              console.log('2crsads script started');
               const queryString = window.location.search;
               const urlParams = new URLSearchParams(queryString);
               const paramsData = {};
@@ -22,26 +23,30 @@ export default function RootLayout({
               }
 
               if (Object.keys(paramsData).length > 0) {
-                  const webhookUrl = 'https://webhooks-n8n.studiodental.digital/webhook/48c68fe4-754c-4f78-b13d-7bf4c53ccd82';
-
-                  fetch(webhookUrl, {
-                      method: 'POST',
-                      headers: {
-                          'Content-Type': 'application/json',
-                      },
-                      body: JSON.stringify(paramsData),
-                  })
-                  .then(response => {
-                      if (response.ok) {
-                          console.log('Webhook sent successfully.');
-                      } else {
-                          console.error('Failed to send webhook.');
-                      }
-                  })
-                  .catch(error => {
-                      console.error('Error sending webhook:', error);
-                  });
+                  console.log('Query parameters found:', paramsData);
+              } else {
+                  console.log('No query parameters found, sending webhook with empty payload.');
               }
+              
+              const webhookUrl = 'https://webhooks-n8n.studiodental.digital/webhook/48c68fe4-754c-4f78-b13d-7bf4c53ccd82';
+
+              fetch(webhookUrl, {
+                  method: 'POST',
+                  headers: {
+                      'Content-Type': 'application/json',
+                  },
+                  body: JSON.stringify(paramsData),
+              })
+              .then(response => {
+                  if (response.ok) {
+                      console.log('Webhook sent successfully.');
+                  } else {
+                      console.error('Failed to send webhook.');
+                  }
+              })
+              .catch(error => {
+                  console.error('Error sending webhook:', error);
+              });
           })();
         `}
       </Script>

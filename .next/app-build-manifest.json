@@ -20,11 +20,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(defaultLayout)/page.js"
-    ],
-    "/(defaultLayout)/blog/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(defaultLayout)/blog/page.js"
     ]
   }
 }
