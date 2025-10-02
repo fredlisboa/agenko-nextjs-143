@@ -17,7 +17,7 @@ const Team2 = dynamic(() => import('../Components/Team/Team2'));
 // Note: Commented out components are kept as they were
 // import Project2 from '../Components/Project/Project2';
 // import Brand2 from '../Components/Brand/Brand2';
-// import Blog2 from '../Components/Blog/Blog2';
+import Blog2 from '../Components/Blog/Blog2';
 
 const page = () => {
     return (
@@ -36,7 +36,7 @@ const page = () => {
             {/* <Brand2></Brand2> */}
             <Faq1></Faq1>
             <Team2></Team2>
-            {/* <Blog2></Blog2> */}
+            <Blog2></Blog2>
         </div>
     );
 };

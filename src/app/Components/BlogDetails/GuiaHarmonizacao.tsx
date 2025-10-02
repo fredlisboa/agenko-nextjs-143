@@ -13,7 +13,7 @@ const BlogDetails = () => {
                                 <div className="agenko-post-item pf_fadeup">
                                     <div className="main-post">
                                         <div className="post-thumbnail">
-                                        <Image src="/assets/images/pages/blog/lvieen.png" alt="img" width={770} height={600}   />
+                                        <Image src="public/assets/images/pages/blog/moca_fx-410x320.jpg" alt="img" width={770} height={600}   />
                                         </div>
                                         <div className="post-content" style={{marginBottom: '0px'}}>
                                             <div className="post-meta">
