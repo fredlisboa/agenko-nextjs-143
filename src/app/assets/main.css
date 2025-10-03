@@ -5828,6 +5828,7 @@ label {
 }
 .blog-details-wrapper .agenko-post-item .post-thumbnail img {
   width: 100%;
+  border-radius: 35px;
 }
 .blog-details-wrapper .agenko-post-item .post-content .post-meta {
   margin-bottom: 15px;
@@ -7540,8 +7541,13 @@ color: #222;
   width: 100%;
   height: auto;
   object-fit: cover;
+  border-radius: 35px;
 }
 .blog-details-subtitle {
   margin-bottom: 15px;
 }
 
+
+.agenko-blog-item.style-four .post-thumbnail img {
+  border-radius: 35px;
+}

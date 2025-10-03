@@ -1,5 +1,4 @@
 {
-  "/(defaultLayout)/blog/guia-harmonizacao/page": "app/(defaultLayout)/blog/guia-harmonizacao/page.js",
-  "/(defaultLayout)/contact/page": "app/(defaultLayout)/contact/page.js",
-  "/(defaultLayout)/page": "app/(defaultLayout)/page.js"
+  "/(defaultLayout)/blog/page": "app/(defaultLayout)/blog/page.js",
+  "/(defaultLayout)/blog/guia-harmonizacao/page": "app/(defaultLayout)/blog/guia-harmonizacao/page.js"
 }
