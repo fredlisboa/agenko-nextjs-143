@@ -66,7 +66,7 @@ const BlogDetails = () => {
                                             </div> */}
                                             {/* <h4 className="post-title" style={{textAlign: 'justify', hyphens: 'auto'}}>Research & strategy</h4>
                                             <p style={{textAlign: 'justify', hyphens: 'auto'}}>Conducting comprehensive research and crafting data-driven strategies to support informed decision-making, streamline operations, and achieve sustainable growth while aligning with organizational goals and market demands.</p> */}
-                                            <ul className="check-list style-one">
+                                            <ul className="check-list style-one blog-detail-list">
                                                 <li><i className="bi bi-check2-square"></i>Rejuvenescimento a Laser (Lavieen)</li>
                                                 <li><i className="bi bi-check2-square"></i>Estímulo de Colágeno e Elastina</li>
                                                 <li><i className="bi bi-check2-square"></i>Tratamento de Manchas e Melasma</li>

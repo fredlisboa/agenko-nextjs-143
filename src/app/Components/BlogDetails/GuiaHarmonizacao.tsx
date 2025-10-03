@@ -51,11 +51,13 @@ const BlogDetails = () => {
                                             <p style={{textAlign: 'justify', hyphens: 'auto'}}>Um contorno facial bem definido é sinônimo de jovialidade. Procedimentos como a <Link href="/#lipo-de-papada" legacyBehavior><a style={{fontWeight: 'bold', color: 'white'}}>lipo de papada</a></Link> removem o excesso de gordura sob o queixo, enquanto o preenchimento mandibular realça a linha que divide o rosto e o pescoço, conferindo mais força e elegância à aparência.</p>
                                             <h4 className="post-title" style={{textAlign: 'justify', hyphens: 'auto'}}>Quem Pode se Beneficiar da Harmonização Orofacial?</h4>
                                             <p style={{textAlign: 'justify', hyphens: 'auto'}}>A HOF é indicada para qualquer pessoa que deseje:</p>
-                                            <li> Melhorar a proporção e o equilíbrio entre os traços faciais.</li>
-                                            <li> Suavizar os sinais do envelhecimento de forma natural.</li>
-                                            <li> Realçar pontos específicos, como lábios, queixo ou maçãs do rosto.</li>
-                                            <li> Corrigir assimetrias e melhorar a harmonia geral da face.</li>
-                                            <li> Investir na autoestima e sentir-se mais confiante com a própria aparência.</li>
+                                            <ul className="blog-detail-list">
+                                                <li> Melhorar a proporção e o equilíbrio entre os traços faciais.</li>
+                                                <li> Suavizar os sinais do envelhecimento de forma natural.</li>
+                                                <li> Realçar pontos específicos, como lábios, queixo ou maçãs do rosto.</li>
+                                                <li> Corrigir assimetrias e melhorar a harmonia geral da face.</li>
+                                                <li> Investir na autoestima e sentir-se mais confiante com a própria aparência.</li>
+                                            </ul><br />
                                             <h4 className="post-title" style={{textAlign: 'justify', hyphens: 'auto'}}>O Passo Mais Importante: A Escolha do Profissional</h4>
                                             <p style={{textAlign: 'justify', hyphens: 'auto'}}>O sucesso da harmonização facial depende diretamente da qualificação e do senso estético do profissional. É fundamental escolher um especialista com vasta experiência, que entenda suas expectativas e utilize apenas produtos de alta qualidade e aprovados pelos órgãos reguladores.</p>
                                             <p style={{textAlign: 'justify', hyphens: 'auto'}}>Na Studio Dental, a <Link href="/contact" legacyBehavior><a style={{fontWeight: 'bold', color: 'white'}}>sua jornada começa com uma avaliação detalhada</a></Link> com a Dra. Gabriella Lisboa, que irá criar um plano de tratamento 100% personalizado para você, garantindo segurança e resultados que celebram sua beleza única.</p>

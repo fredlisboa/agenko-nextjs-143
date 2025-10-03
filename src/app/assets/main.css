@@ -7551,3 +7551,8 @@ color: #222;
 .agenko-blog-item.style-four .post-thumbnail img {
   border-radius: 35px;
 }
+.blog-detail-list {
+  padding-left: 20px;
+  list-style-type: disc;
+  list-style-position: inside;
+}

@@ -1,4 +1,5 @@
 {
+  "/(defaultLayout)/page": "app/(defaultLayout)/page.js",
   "/(defaultLayout)/blog/page": "app/(defaultLayout)/blog/page.js",
   "/(defaultLayout)/blog/guia-harmonizacao/page": "app/(defaultLayout)/blog/guia-harmonizacao/page.js"
 }

@@ -7092,6 +7092,11 @@ label {
 .agenko-blog-item.style-four .post-thumbnail img {
   border-radius: 35px;
 }
+.blog-detail-list {
+  padding-left: 20px;
+  list-style-type: disc;
+  list-style-position: inside;
+}
 @media (max-width: 991.98px) {
   .agk-image-box {
     margin-top: 0px;
@@ -32283,5 +32288,10 @@ color: #222;
 
 .agenko-blog-item.style-four .post-thumbnail img {
   border-radius: 35px;
+}
+.blog-detail-list {
+  padding-left: 20px;
+  list-style-type: disc;
+  list-style-position: inside;
 }
 
