@@ -22,7 +22,7 @@ const Blog4 = () => {
                         <div key={i} className="col-xl-4 col-md-6 col-sm-12">
                             <div className="agenko-blog-item style-four mb-40 pf_fadeup">
                                 <div className="post-thumbnail">
-                                <Image src={item.img} alt="img" width={414} height={323}   />
+                                <Image src={item.img} alt="img" width={414} height={323} style={{objectFit: "cover", aspectRatio: "414/323"}}   />
                                 </div>
                                 <div className="post-content">
                                     <div className="post-meta">
